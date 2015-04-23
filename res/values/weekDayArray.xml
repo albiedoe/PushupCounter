@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekDayArray">
+        <item>Week 1 - Day 1</item>
+        <item>Week 1 - Day 2</item>
+        <item>Week 1 - Day 3</item>
+        <item>Week 2 - Day 1</item>
+        <item>Week 2 - Day 2</item>
+        <item>Week 2 - Day 3</item>
+        <item>Week 3 - Day 1</item>
+        <item>Week 3 - Day 2</item>
+        <item>Week 3 - Day 3</item>
+        </string-array>
+</resources>

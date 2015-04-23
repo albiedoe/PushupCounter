@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rect"> 
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+ 		<ImageView
+      		  android:id="@+id/back_button"
+      		  android:layout_width="wrap_content"
+      		  android:layout_height="wrap_content"
+      		  android:contentDescription="@string/statistics_button"
+     		  android:onClick="goBack"
+      		  android:src="@drawable/back6" />
+	 	
+	    <TextView
+    		  android:id="@+id/baseline_title"
+      		  android:layout_width="fill_parent"
+     		  android:layout_height="wrap_content"
+      		  android:gravity="center"
+      		  android:text="@string/app_name"
+       		  android:textSize="20sp" />
+	    </LinearLayout>
+	    <!-- First sentence -->
+	    <TextView
+    		  android:id="@+id/baseline_1"
+      		  android:layout_width="wrap_content"
+     		  android:layout_height="wrap_content"
+      		  android:gravity="center"
+      		  android:lines="2"
+      		  android:text="@string/baseline_1"
+       		  android:textSize="20sp"
+       		  android:layout_margin="20dp" />
+	    <!-- Second Sentence -->
+	    <TextView
+    		  android:id="@+id/baseline_2"
+      		  android:layout_width="fill_parent"
+     		  android:layout_height="wrap_content"
+      		  android:gravity="center"
+      		  android:text="@string/baseline_2"
+       		  android:textSize="20sp"
+       		  android:lines="3"
+       		  android:layout_margin="20dp" />
+	    <!--  Third sentence -->
+	    <TextView
+    		  android:id="@+id/baseline_3"
+      		  android:layout_width="fill_parent"
+     		  android:layout_height="wrap_content"
+      		  android:gravity="center"
+      		  android:text="@string/baseline_3"
+       		  android:textSize="20sp"
+       		  android:layout_margin="20dp" />
+	    
+	    
+	    <!-- baseline choices -->
+	<LinearLayout
+    	android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:layout_marginTop="40dp">
+	    <!--  
+	    <TextView
+    		  android:id="@+id/baseline_choice1"
+      		  android:layout_width="wrap_content"
+     		  android:layout_height="wrap_content"
+      		  android:text="@string/baseline_choice1"
+       		  android:textSize="20sp"
+       		  android:layout_marginLeft="35dp" />
+	    <TextView
+    		  android:id="@+id/baseline_choice2"
+      		  android:layout_width="wrap_content"
+     		  android:layout_height="wrap_content"
+      		  android:text="@string/baseline_choice2"
+       		  android:textSize="20sp"
+       		  android:layout_marginLeft="40dp" />
+	    <TextView
+    		  android:id="@+id/baseline_choice3"
+      		  android:layout_width="wrap_content"
+     		  android:layout_height="wrap_content"
+      		  android:text="@string/baseline_choice3"
+       		  android:textSize="20sp"
+       		  android:layout_marginLeft="27dp" />
+	    <TextView
+    		  android:id="@+id/baseline_choice4"
+      		  android:layout_width="wrap_content"
+     		  android:layout_height="wrap_content"
+      		  android:text="@string/baseline_choice4"
+       		  android:textSize="20sp"
+       		  android:layout_marginLeft="23dp" />
+    -->
+    <ImageView
+      		  android:id="@+id/baseline_choice1"
+      		  android:layout_width="wrap_content"
+      		  android:layout_height="wrap_content"
+      		  android:contentDescription="@string/baseline_choice1"
+     		  android:onClick="saveBaseline"
+     		  android:tag="5"
+      		  android:src="@drawable/baseline_1" />
+    <ImageView
+      		  android:id="@+id/baseline_choice2"
+      		  android:layout_width="wrap_content"
+      		  android:layout_height="wrap_content"
+      		  android:contentDescription="@string/baseline_choice2"
+     		  android:onClick="saveBaseline"
+     		  android:tag="8"
+      		  android:src="@drawable/baseline_2" />
+    <ImageView
+      		  android:id="@+id/baseline_choice3"
+      		  android:layout_width="wrap_content"
+      		  android:layout_height="wrap_content"
+      		  android:contentDescription="@string/baseline_choice3"
+     		  android:onClick="saveBaseline"
+     		  android:tag="16"
+      		  android:src="@drawable/baseline_3" />
+    <ImageView
+      		  android:id="@+id/baseline_choice4"
+      		  android:layout_width="wrap_content"
+      		  android:layout_height="wrap_content"
+      		  android:contentDescription="@string/baseline_choice4"
+     		  android:onClick="saveBaseline"
+     		  android:tag="24"
+      		  android:src="@drawable/baseline_4" />
+	</LinearLayout>>
+</LinearLayout>

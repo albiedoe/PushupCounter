@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grayed_out">#35383e</color>
+    <color name="pink">#f3606f</color>
+    <color name="teal">#29aca3</color>
+    <color name="purple">#9256b2</color>
+    <color name="yellow">#e5ad2f</color>
+    <color name="background">#232529</color>
+    <color name="white">#ffffff</color>
+    <color name="off_white">#968d81</color>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">Elite Pushup Counter</string>
+    <string name="custom_font">Helvetica Neue Ultra Light/HelveticaNeue-UltraLight.otf</string>
+	<string name="pushup_button">PUSHUP</string>
+	<string name="statistics_button">STATISTICS</string>
+	<string name="reminders_button">REMINDERS</string>
+	<string name="journal_button">JOURNAL</string>
+	<string name="settings_button">SETTINGS</string>
+	<string name="baseline_title">Baseline Test</string>
+	<!--  Baseline -->
+	<string name="Schedule">Schedule</string>
+	<string name="baseline_1">Perform as many push ups as you physically can.</string>
+    <string name="baseline_2">This test will determine the level at which to begin your training.</string>
+	<string name="baseline_3">Once you are finished, select below the range of push ups you were able to complete.</string>
+	<string name="baseline_choice1">0&#8211;5</string>
+	<string name="baseline_choice2">6&#8211;10</string>
+	<string name="baseline_choice3">11&#8211;15</string>
+	<string name="baseline_choice4">16&#8211;25</string>
+	<string name="complete">Completed</string>
+	<!-- OVERVIEW REDUNDANCE -->
+	<string name="week1day1">W1 D1</string>
+	<string name="week1day2">W1 D2</string>
+	<string name="week1day3">W1 D3</string>
+	<string name="week2day1">W2 D1</string>
+	<string name="week2day2">W2 D2</string>
+	<string name="week2day3">W2 D3</string>
+	<string name="week3day1">W3 D1</string>
+	<string name="week3day2">W3 D2</string>
+	<string name="week3day3">W3 D3</string>
+	<string name="count10">10</string>
+	<string name="Retest_Baseline">Retest Max Pushups</string>
+	<!--  WORKOUT ACTIVITY -->
+	<string name="default_week_day">Week 1 - Day 1</string>
+	<string name="message">Click Start to Begin</string>
+	<string name="workoutNumber1">10</string>
+	<string name="workoutNumber2">11</string>
+	<string name="workoutNumber3">12</string>
+	<string name="workoutNumber4">13</string>
+	<string name="workoutNumber5">14</string>
+	<string name="start">Start</string>
+	<string name="timer">60</string>
+	<string name="seconds">sec</string>
+	<!--  Settings -->
+	<string name="settings">Settings</string>
+	<string name="reset">Reset App Data</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="weekDayQuestion">Automatically go to Workout&#8230;</string>
+	<string name="rate">Rate and Review this app!</string>
+	<string name="comments">Please take the time to review this app. All reviews will be read and can be used to help improve
+	    the user experience. Tell me what you want me to add, get rid of, or change!</string>
+	<!-- Statistics -->
+	<string name="statistics">Statistics</string>
+	<string name="graph_title">Total Pushups Since First Workout</string>
+	<!--  Journal -->
+	<string name="journal">My Workout Journal</string>
+</resources>

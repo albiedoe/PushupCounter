@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/workoutPage" >
+    
+	<!-- Top Bar -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goBack"
+            android:contentDescription="@string/statistics_button"
+            android:src="@drawable/back6" />
+
+        <TextView
+            android:id="@+id/default_week_day"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/default_week_day"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#999" />
+    
+    <TextView
+            android:id="@+id/Message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/message"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:textSize="20sp" />
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+        
+         <TextView
+             android:id="@+id/workoutNumber1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:text="@string/workoutNumber1"
+             android:textSize="20sp"
+             android:padding="10dp" />
+
+         <TextView
+            android:id="@+id/workoutNumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/workoutNumber2"
+            android:textSize="20sp"
+            android:padding="10dp" />
+         <TextView
+            android:id="@+id/workoutNumber3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/workoutNumber3"
+            android:textSize="20sp"
+            android:padding="10dp" />
+         <TextView
+            android:id="@+id/workoutNumber4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/workoutNumber4"
+            android:textSize="20sp"
+            android:padding="10dp" />
+         <TextView
+            android:id="@+id/workoutNumber5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/workoutNumber5"
+            android:textSize="20sp"
+            android:padding="10dp" />
+        </LinearLayout>
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+     <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/timer"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp"
+            android:textSize="124sp" />
+     <TextView
+            android:id="@+id/sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/seconds"
+            android:textSize="16sp" />
+     </LinearLayout>
+     <TextView
+            android:id="@+id/start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+			android:onClick="drawBubbles"
+			android:clickable="true"
+            android:text="@string/start"
+            android:paddingTop="40dp"
+            android:textSize="20sp" />
+    
+</LinearLayout>
